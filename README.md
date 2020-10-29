@@ -18,15 +18,17 @@ RestartSec=5s
 WantedBy=multi-user.target
 ```
 ### Install frps
+```
 sudo mkdir /usr/local/.frp
+```
 copy frps executables into the folder
 
 ### create frps.ini
 create frps.ini with the content:
-
+```
 [common]
 bind_port = 80
-
+```
 ### create start_frps.sh
 create start_frps.sh with the content:
 ```
